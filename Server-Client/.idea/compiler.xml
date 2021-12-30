@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RS" />
+        <module name="myNosqlTest1" />
+        <module name="Recommend" />
+        <module name="Recommender-System" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RS" options="-bootclasspath $USER_HOME$/.jdks/corretto-1.8.0_312/jre/lib/rt.jar" />
+      <module name="Recommend" options="-bootclasspath &quot;$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_291/jre/lib/rt.jar&quot;" />
+      <module name="Recommender-System" options="-bootclasspath &quot;$PROJECT_DIR$/../../../../../Program Files/Java/jdk1.8.0_291/jre/lib/rt.jar&quot;" />
+      <module name="myNosqlTest1" options="-bootclasspath &quot;$PROJECT_DIR$/../../../../../Program Files/Java/jdk1.8.0_291/jre/lib/rt.jar&quot;" />
+    </option>
+  </component>
+</project>
